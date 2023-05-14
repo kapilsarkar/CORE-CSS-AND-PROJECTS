@@ -13,6 +13,26 @@ section{
     max-width: 500px;
 }
 
+.sec2{
+    background-color: rgb(13, 229, 13);
+    color: white;
+    width: 50vh;
+    padding: 20vh;
+}
+.box2{
+    box-sizing: border-box;
+    padding: 10vh;
+    color: blueviolet;
+}
+
+.box3 p {
+    font-size: 2rem;
+    background-color: rgb(230, 192, 135);
+    color: black;
+    width: 10em;
+    padding: 2em;
+}
+
 /* Height Should Always be Given on Percentage */
 /* Border cannot be given in Percentage */
 /* Percent Calculates on the basis of their respective parent*/
