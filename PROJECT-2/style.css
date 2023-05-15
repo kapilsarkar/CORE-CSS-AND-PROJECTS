@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hashtag-header{
+    padding: 4rem;
+    background-color: #2827CC;
+    color: #fff;
+    background-image: url(./images/background.png);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -160px;
+}
+.hashtag-header h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.hashtag-header span{
+    font-size: 2rem;
+}
+.hashtag-header img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    vertical-align: middle;
+    
+}
+/*Adjacent Sibling Selector */
+img + img {
+    margin-left: -1rem;
+}
