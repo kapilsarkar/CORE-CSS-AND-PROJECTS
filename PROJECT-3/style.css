@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.card-container{
+    color: #fff;
+    padding: 1rem;
+   
+}
+.card h2{
+    text-transform: uppercase;
+}
+a{
+    color: inherit;
+}
+.orange-card{
+    background-color: hsl(31, 77%, 52%) ;
+}
+.green-card{
+    background-color: hsl(184, 100%, 22%);
+}
+.darkgreen-card{
+    background-color: hsl(179, 100%, 13%);
+}

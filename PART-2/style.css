@@ -1,0 +1,19 @@
+*{
+    margin:0;
+   
+}
+.parent{
+    padding: 0.5rem;
+    border: 3px solid red;
+    display: flex;
+}
+.parent span{
+    border: 3px solid gold;
+
+}
+.parent p{
+    border:3px solid green;
+}
+.parent a{
+    border: 3px solid yellowgreen;
+}
