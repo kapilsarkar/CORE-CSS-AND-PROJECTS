@@ -4,3 +4,10 @@
     height: 300px;
     border:  25px solid rgb(122, 14, 230);
 }
+
+@media (max-width:360px){
+    .square{
+       width: 100px; 
+    }
+}
+
