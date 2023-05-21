@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+
+}
+.hero-section{
+    min-height: 100vh;
+    /* background-color: #F99501; */
+    background-image: url(./images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-section p {
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Salsa',cursive;
+    max-width: 400px;
+    margin-left: 15rem;
+}
