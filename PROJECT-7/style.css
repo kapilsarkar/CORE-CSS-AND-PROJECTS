@@ -7,7 +7,7 @@ body{
     margin-bottom: -190px;
 }
 .hero-section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background-color: #F99501; */
     background-image: url(./images/orange-backdrop.png);
     background-size: cover;
@@ -20,7 +20,7 @@ body{
     font-size: 3rem;
     font-weight: 400;
     font-family: 'Salsa',cursive;
-    max-width: 400px;
+    max-width: 550px;
     
 }
 .audio-container{
@@ -37,6 +37,47 @@ audio::-webkit-media-controls-play-button,
      background-color: #FBD8A4;
      
      }
+
+.laxmi-ganesha-section{
+    background-color: #F99501;
+    padding-top: 1rem;
+    padding-inline: 1rem;
+   
+}
+.horizontal-divider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 810px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+}
+.horizontal-line{
+   
+    height: 5px;
+    background-color: #FBD8A4;
+    width: 470px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: #FBD8A4;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+.laxmiganeshaimg{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    
+}
+.laxmi-ganesha-section h2 {
+    font-family: 'Style-Script',cursive ;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+}
 /* Media Query for Hero Section */
 
 @media (max-width : 840px){
@@ -54,7 +95,7 @@ audio::-webkit-media-controls-play-button,
         margin-bottom: 0;
     }
     .hero-section p{
-        font-size: 28px;
+        font-size: 32px;
     }
 }
 
@@ -67,6 +108,17 @@ audio::-webkit-media-controls-play-button,
     }
     .audio-container{
         max-width: max-content;
+    }
+    .hero-section p{
+        font-size: 24px;
+    }
+    .first-deepak{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .first-deepak{
+        width: 100%;
     }
 }
 
