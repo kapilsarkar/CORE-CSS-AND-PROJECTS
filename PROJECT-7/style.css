@@ -8,7 +8,7 @@ body{
 }
 .hero-section{
     /* min-height: 100vh; */
-    /* background-color: #F99501; */
+    background-color: #F99501;
     background-image: url(./images/orange-backdrop.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,7 +42,8 @@ audio::-webkit-media-controls-play-button,
     background-color: #F99501;
     padding-top: 1rem;
     padding-inline: 1rem;
-   
+    padding-block: 1rem;
+    
 }
 .horizontal-divider{
     display: flex;
@@ -77,6 +78,53 @@ audio::-webkit-media-controls-play-button,
     font-size: 54px;
     font-weight: 400;
     text-align: center;
+}
+.white-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.white-card{
+    background-color: #fff;
+    max-width: 520px;
+    padding: 4rem;
+    border-radius: 24px;
+    
+}
+.white-card p {
+    font-size: 2rem;
+   
+}
+.little-girl{
+    max-width: 260px;
+    margin-left: -5rem;
+}
+
+
+.laxmi-ganesha-card{
+    background-color: #FFF6E9;
+    padding: 4rem;
+    border-radius: 24px;
+    max-width: 772px;
+   
+    display: flex;
+    margin-inline: auto;
+}
+.laxmi-ganesha-card img{
+    width: 50%;
+}
+.footer-text{
+    max-width: 900px;
+    margin-inline: auto;
+    width: 100%;
+    /* padding-block: 1rem;
+    padding-left: 0;
+    padding-right: 8rem; */
+}
+.footer-text h2{
+    text-align: left;
+    color: #fff;
 }
 /* Media Query for Hero Section */
 
@@ -115,10 +163,72 @@ audio::-webkit-media-controls-play-button,
     .first-deepak{
         width: 100%;
     }
+    .laxmi-ganesha-card{
+        padding: 2rem;
+    }
 }
 @media (max-width:400px) {
+
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
     .first-deepak{
         width: 100%;
+    }
+    .laxmi-ganesha-card{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:650px){
+      
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+    .white-card p {
+        font-size: 1rem;
+    }
+    .laxmi-ganesha-section h2{
+        font-size: 32px;
+    }
+    .laxmi-ganesha-card{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:480px){
+
+
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+    .white-card p {
+        font-size: 1rem;
+    }
+    .little-girl{
+        max-width: 200px;
+    }
+    .laxmi-ganesha-card{
+        padding: 2rem;
+    }
+}
+@media(max-width:390px){
+   
+    .white-card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+    .white-card p {
+        font-size: 0.5rem;
+    }
+    .little-girl{
+        max-width: 150px;
+    }
+    .laxmi-ganesha-card{
+        padding: 2rem;
     }
 }
 
