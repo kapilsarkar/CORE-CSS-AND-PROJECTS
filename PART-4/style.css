@@ -1,0 +1,15 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    font-size: 4rem;
+    border: 5px solid #000;
+    /* max-width: 170px; */
+    /* overflow: scroll; */
+}
+
+@media (width < 400px) {
+.box{
+    font-size: 2rem;
+}
+}
