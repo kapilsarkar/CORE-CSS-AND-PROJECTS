@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(219, 24, 24);
+}
+p{
+    color: blueviolet;
+}
+/* CSS BOX MODEL */
+
+/* THREE DIFFERENT PARTS TO CSS BOX  MODEL---*/
+
+/* 1. MARGIN
+   2. BORDER
+   3. PADDING */
+   /* BORDER HAS 3 DIFFERENT PROPERTIES---
+        1. BORDER-WIDTH 
+        2.BORDER-COLOR
+        3. BORDER-STYLE*/
+
+        /* WIDTH COMPRISES OF NOT ONLY THE WIDTH GIVEN BUT THE MARGIN GIVEN ON LEFT AND RIGHT PLUS  PADDING ON LECT AND RIGHT PLUS THE BORDER ALL OF THESE COMPRISES WITH WIDTH*/
+.box{
+    background-color: pink;
+    width: 300px;
+    margin: 50PX 0;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    border-right: 5px solid green;
+    /* padding: 50px 20px 100px 20px;     top right bottom left */
+    padding: 50px 20px 100px 20px;
+ } 
