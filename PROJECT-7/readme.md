@@ -4,17 +4,17 @@
 
 # OUTPUT---
 
-![IMG1](./images/1.png)
+![IMG1](https://github.com/kapilsarkar/CORE-CSS-AND-PROJECTS/blob/main/PROJECT-7/images/1.png)
 
-![IMG2](./images/2.png)
+![IMG2](https://github.com/kapilsarkar/CORE-CSS-AND-PROJECTS/blob/main/PROJECT-7/images/2.png)
 
-![IMG3](./images/3.png)
+![IMG3](.https://github.com/kapilsarkar/CORE-CSS-AND-PROJECTS/blob/main/PROJECT-7/images/2.png)
 
-![IMG4](./images/4.png)
+![IMG4](https://github.com/kapilsarkar/CORE-CSS-AND-PROJECTS/blob/main/PROJECT-7/images/4.png)
 
-![IMG5](./images/5.png)
+![IMG5](https://github.com/kapilsarkar/CORE-CSS-AND-PROJECTS/blob/main/PROJECT-7/images/5.png)
 
-![IMG6](./images/6.png)
+![IMG6](https://github.com/kapilsarkar/CORE-CSS-AND-PROJECTS/blob/main/PROJECT-7/images/6.png)
 
 
 
