@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+.first-container{
+    background-color: hotpink;
+    box-shadow: 0 5 16px;
+    padding: 1rem;
+}
+.second-container{
+    background-color: cadetblue;
+    box-shadow: 0 5 16px;
+    margin-left: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: -100px;
+}
+.red-box{
+    background-color: rgb(221, 22, 22);
+    position: relative;
+    z-index: 10;
+    
+}
+.green-box{
+    background-color: rgb(11, 232, 11);
+    margin-left: 2rem;
+    position: relative;
+}
+.blue-box{
+    background-color: rgb(29, 29, 213);
+    margin-left: 3rem;
+    position: relative;
+    z-index: -5;
+}
+
+/* Initially Z-index will be 0 or auto */
+/* When position property is being given to any element then only z-index will work except position static because by default position of any element is static  */
+
+/* When every element is being given the same position property i.e relative then we can bring any element on top by giving z-index  */
+
+/* By giving negative z-index the element will go backward */
