@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0;
+    margin: 16px;
     font-family: sans-serif;
 }
 h1{
@@ -14,6 +14,9 @@ h1{
     margin-inline: 2rem;
     display: grid;
     gap: 1.5rem;
+    padding-bottom: 3rem;
+    max-width: 1200px;
+    margin-inline: auto;
     
 }
 .box{
@@ -40,4 +43,28 @@ h1{
 }
 .box5{
     background-color: #BE3690;
+}
+
+@media (min-width:620px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box{
+        min-height: 300px;
+    }
+    .box1{
+        grid-column-start: span 2;
+        
+    }
+    .box3{
+        grid-row-start: span 2;
+    }
+    .box5{
+        grid-column-start: span 2;
+    }
+}
+@media (min-width:1000px){
+   .container{
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
 }
