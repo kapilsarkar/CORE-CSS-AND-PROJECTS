@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 1rem;
+    position: fixed;
+}
+.container{
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+.menu-header{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+   
+}
+.menu{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.menu-list{
+    display: flex;
+    gap: 2rem;
+    
+}
+.menu-list li{
+    list-style: none;
+    font-weight: 600;
+}
+.menu-list :nth-child(1){
+    text-decoration: underline;
+   
+   
+}
+.download-app{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    border-radius: 30px 30px 5px 30px;
+}
