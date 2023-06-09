@@ -4,17 +4,22 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+/* STYLING FOR MENU-BAR STARTS */
 .header{
     width: 100%;
     background-color: #fff;
     display: flex;
-    margin-top: 1rem;
+    
     position: fixed;
+    z-index: 30;
 }
 .container{
-    padding-inline: 1rem;
-    margin-inline: auto;
+    /* padding-inline: 1rem;
+    margin-inline: auto; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .menu-header{
     padding: 1rem;
@@ -56,6 +61,106 @@
     font-family: inherit;
     border-radius: 30px 30px 5px 30px;
 }
+/* STYLING FOR MENU-BAR ENDS */
+/* STYLING FOR RESPONSIVE MENU-BAR STARTS */
 .responsive-menu{
+    width: 100%;
    display: flex;
+   justify-content: space-around;
+   align-items: center;
+  visibility: hidden;
+}
+.responsive-btn{
+    display: flex;
+    margin-top: 1rem;
+    width: 30%;
+    padding-left: 5rem;
+}
+.responsive-logo{
+    width: 7%;
+    
+}
+.responsive-menu p{
+    font-weight: 500;
+}
+
+#humbuger{
+    width: 20%;
+    padding-left: 1rem;
+}
+/* STYLING FOR RESPONSIVE MENU-BAR ENDS */
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    
+}
+.hero-section-left{
+    padding-top: 185px;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero-section-left h1{
+    font-weight: 300;
+    font-size: 3rem;
+}
+.hero-section-left h3{
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 2rem;
+    width: 70%;
+}
+.hero-section-right{
+    width: 70%;
+}
+.hero-section-right-container{
+    background-color: #F9C935;
+    border-radius: 507.5px;
+    transform: rotate(130deg) translateX(-10%) translateY(66%);
+    margin-top: 20rem;
+    max-width: 1200px;
+}
+.hero-section-right-container img{
+    width: 60%;
+    transform: rotate(-130deg);
+    position: relative;
+    top: -10%;
+    left: 15%;
+}
+
+@media (max-width:990px){
+
+    .responsive-logo{
+        width: 10%;
+        
+    }
+    .responsive-menu{
+        visibility: visible;
+    }
+    .header{
+        display: none;
+    }
+}
+@media (max-width:695px){
+    .responsive-btn{
+        padding-left: 0.1rem;
+        width: auto;
+    }
+    .responsive-logo{
+        width: 10%;
+        
+    }
+}
+@media (max-width:390px ){
+    .responsive-btn{
+        padding-left: 0.2rem;
+    }
+    .responsive-logo{
+        width: 14%;
+        
+    }
 }
